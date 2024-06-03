@@ -53,7 +53,7 @@ Status do Projeto: :heavy_check_mark:  Concluído
 No terminal (caso não tenha o zip): 
 
 ```
-git clone https://github.com/jessicaagrs/frontend_appDeliveryMars.git
+git clone https://github.com/jessicaagrs/frontend_webDeliveryMars.git
 
 ```
 
