@@ -65,6 +65,8 @@ npm run dev
 
 ```
 
+Acesse a versão do deploy [CLIQUE AQUI](https://jessicaagrs-frontend-web-delivery-mars.vercel.app/)
+
 ## Dependencias e libs utilizadas :books:
 
 - UUIDV4
