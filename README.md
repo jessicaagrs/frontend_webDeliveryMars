@@ -34,6 +34,7 @@ Status do Projeto: :heavy_check_mark:  Concluído
 <p>:heavy_check_mark: Editar endereços individualmente</p>
 <p>:heavy_check_mark: Remover endereços individualmente</p>
 <p>:heavy_check_mark: Adicionar um endereço</p>
+<p>:heavy_check_mark: Dados de endereço pré cadastrados, para facilitar os testes das funcionalidades</p>
 
 ## Layout :dash:
 
