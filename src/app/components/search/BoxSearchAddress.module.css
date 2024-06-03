@@ -1,0 +1,12 @@
+.container_search {
+    display: flex;
+    gap: 22px;
+    margin-top: 40px;
+    width: 50%;
+}
+
+@media (max-width: 915px) {
+    .container_search {
+        width: 100%;
+    }
+}

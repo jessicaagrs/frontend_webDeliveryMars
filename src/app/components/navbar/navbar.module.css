@@ -1,0 +1,40 @@
+.navbar_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_items {
+    width: 100%;
+    display: flex;
+    gap: 22px;
+}
+
+.navbar_buttons {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+@media (max-width: 915px) {
+    .navbar_container {
+        flex-direction: column;
+    }
+
+    .navbar_items{
+        align-items: center;
+    }
+
+    .navbar_items h1 {
+        font-size: 14px;
+        text-wrap: nowrap;
+    }
+
+    .navbar_buttons {
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+  }
+
+
+

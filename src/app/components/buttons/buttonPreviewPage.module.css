@@ -1,0 +1,22 @@
+.previewPage_button {
+    background-color: transparent;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.previewPage_button:hover {
+    background-color: #D9D9D9;
+}
+
+
+@media (max-width: 915px) {
+    .previewPage_button {
+        width: 25px;
+        height: 25px;
+    }
+}
+

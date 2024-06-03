@@ -1,0 +1,169 @@
+.form {
+	width: 40%;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form_groupSelect {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-bottom: 20px;
+}
+
+.form_groupSelect label {
+	font-size: var(--fontSizeDefault);
+	font-weight: var(--fontWeightDefault);
+}
+
+.form_groupSelect select {
+	appearance: none;
+	border: 1px solid var(--colorGray1);
+	border-radius: 5px;
+	height: 40px;
+	padding-left: 1rem;
+	font-size: 15px;
+	outline-color: var(--colorGray2);
+	background-image: url("/arrow-up.svg");
+	background-position: right 2% bottom 45%;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+
+.form_groupSelect select:focus {
+	background-image: url("/arrow-down.svg");
+}
+
+.form_groupDelivery {
+	display: flex;
+	flex-direction: column;
+}
+
+.form_groupDelivery img {
+	width: 100%;
+	cursor: pointer;
+}
+
+.form_groupDeliveryArea {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.form_groupDeliveryArea span {
+	font-size: var(--fontSizeDefault);
+	font-weight: var(--fontWeightDefault);
+}
+
+.form_groupDeliveryArea button {
+	border: none;
+	background: transparent;
+	font-size: 15px;
+	font-weight: 600;
+	cursor: pointer;
+	color: var(--colorPurple);
+}
+
+.form_groupPersonalData {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form_groupPersonalData_inputs {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.form_groupPersonalData_inputs label {
+	font-size: var(--fontSizeDefault);
+	font-weight: var(--fontWeightDefault);
+}
+
+.form_groupPersonalData_inputs input {
+	height: 40px;
+	width: 280px;
+	border: 1px solid var(--colorGray1);
+	border-radius: 8px;
+	outline-color: var(--colorGray2);
+	font-size: 17px;
+	padding-left: 1rem;
+}
+
+.form_groupPersonalData_inputs_address {
+	margin-top: 20px;
+}
+
+.form_groupPersonalData_inputs_address label {
+	font-size: var(--fontSizeDefault);
+	font-weight: var(--fontWeightDefault);
+}
+
+.form_groupPersonalData_inputs_address input {
+	width: 100% !important;
+	height: 40px;
+	border: 1px solid var(--colorGray1);
+	border-radius: 8px;
+	outline-color: var(--colorGray2);
+	font-size: 17px;
+	padding-left: 1rem;
+}
+
+.form_groupCheckbox {
+	margin-top: 20px;
+	display: flex;
+	gap: 22px;
+}
+
+.form_groupCheckbox_item {
+	display: flex;
+	gap: 15px;
+}
+
+.form_groupCheckbox_item label {
+	font-size: var(--fontSizeDefault);
+	font-weight: 400;
+}
+
+.form_groupCheckbox_item input {
+	appearance: none;
+	border: 1px solid var(--colorGray1);
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.form_groupCheckbox_item input:checked{
+	background-color: var(--colorPurple);
+}
+
+.form_groupButtonsActions {
+	margin-top: 50px;
+	display: flex;
+	gap: 50px;
+}
+
+.form_errorMessage {
+	color: rgb(255, 72, 72);
+	font-size: 0.75rem;
+	margin-top: 5px;
+}
+
+@media (max-width: 915px) {
+	.form {
+		width: 100%;
+	}
+
+	.form_groupPersonalData {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 1545px) {
+	.form_groupPersonalData {
+		gap: 20px;
+	}
+}

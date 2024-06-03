@@ -1,0 +1,37 @@
+.containerCleanFilter {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerCleanFilter button {
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    font-weight: var(--fontWeightDefault);
+    color: var(--colorPurple);
+    cursor: pointer;
+}
+
+.containerCleanFilter button:hover {
+    text-decoration: underline;
+}
+
+.subtitlePageHome {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.divisor {
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    background-color: var(--colorGray1);
+}
+
+@media (max-width: 915px) {
+    .containerCleanFilter {
+        width: 100%;
+    }
+}

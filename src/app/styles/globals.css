@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--fontSizeDefault: 18px;
+	--fontWeightDefault: 500;
+	--colorPurple: #542bf0;
+	--colorGray1: #dddada;
+	--colorGray2: #9e9d9d;
+	--colorWhite: #fff;
+}
+body {
+	margin: 30px 50px 30px 50px;
+	min-height: 100vh;
+}
+
+@media (max-width: 915px) {
+	body {
+		margin: 20px;
+	}
+}

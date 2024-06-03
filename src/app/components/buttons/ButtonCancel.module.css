@@ -1,0 +1,23 @@
+.buttonCancel {
+    width: 130px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: var(--colorWhite);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.buttonCancel:hover {
+    background-color: #dddcdc;
+}
+
+@media (max-width: 915px) {
+    .buttonCancel {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+}

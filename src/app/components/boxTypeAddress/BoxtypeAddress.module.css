@@ -1,0 +1,40 @@
+.containerTypeAddress {
+	margin-top: 2rem;
+	width: 50%;
+	height: 4rem;
+	background-color: var(--colorGray1);
+	border-radius: 8px;
+	padding: 0.3rem;
+	display: flex;
+	gap: 8px;
+}
+
+.containerTypeAddress_buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--colorWhite);
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	cursor: pointer;
+	border: none;
+	font-size: 16px;
+	font-weight: 600;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.containerTypeAddress_buttons_active {
+	background-color: var(--colorGray1);
+	color: var(--colorGray2);
+	transition: 0.7s;
+	box-shadow: none;
+}
+
+@media (max-width: 915px) {
+	.containerTypeAddress {
+		flex-direction: column;
+        width: 100%;
+        height: 100px;
+	}
+}

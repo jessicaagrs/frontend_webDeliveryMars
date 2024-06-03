@@ -1,0 +1,14 @@
+.buttonAddAdress {
+	background-color: transparent;
+	color: var(--colorPurple);
+	width: 30%;
+	border: 1px solid var(--colorPurple);
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.buttonAddAdress:hover {
+	background-color: var(--colorPurple);
+	color: var(--colorWhite);
+}
